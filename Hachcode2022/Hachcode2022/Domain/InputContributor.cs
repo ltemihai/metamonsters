@@ -2,10 +2,10 @@
 
 namespace Hachcode2022.Domain
 {
-    public class Contributor
+    public class InputContributor
     {
         public string Name { get; set; }
-        public List<Skill> Skills { get; } = new List<Skill>();
+        public List<InputSkill> Skills { get; } = new List<InputSkill>();
 
     }
 }
