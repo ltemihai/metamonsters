@@ -28,7 +28,7 @@ namespace Hachcode2022.FileHandlers
                 var skillNr = Int32.Parse(tokens[1]);
                 for (int j = 0; j < skillNr; j++)
                 {
-                    tokens = lines[lineIndex + j].Split(" ");
+                    tokens = lines[lineIndex + 1 + j].Split(" ");
                     var skill = new InputSkill()
                     {
                         Name = tokens[0],
@@ -54,7 +54,7 @@ namespace Hachcode2022.FileHandlers
 
                 for (int j = 0; j < roleNr; j++)
                 {
-                    tokens = lines[lineIndex + j].Split(" ");
+                    tokens = lines[lineIndex + 1 + j].Split(" ");
                     var role = new InputRole()
                     {
                         Name = tokens[0],
