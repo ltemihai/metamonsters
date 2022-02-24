@@ -43,9 +43,30 @@ namespace Hachcode2022.FileHandlers
 
             for (int i = 0; i < projectNr; i++)
             {
-                // var project = new 
+                var project = new InputProject();
+                var tokens = lines[lineIndex].Split(" ");
+                project.Name = tokens[0];
+                project.RequiredDays = Int32.Parse(tokens[1]);
+                project.Reward = Int32.Parse(tokens[2]);
+                project.Deadline = Int32.Parse(tokens[3]);
+                var roleNr = Int32.Parse(tokens[4]);
+
+                for (int j = 0; j < roleNr; j++)
+                {
+                    tokens = lines[lineIndex + j].Split(" ");
+                    var role = new InputRole()
+                    {
+                        Name = tokens[0],
+                        Level = Int32.Parse(tokens[1])
+                    };
+                    project.roles.Add(role);
+                }
+                
+                inputCase.Projects.Add(project);
+                lineIndex += roleNr + 1;
             }
-            return new ExampleInputClass();
+            
+            return inputCase;
         }
         
     }
