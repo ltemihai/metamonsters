@@ -15,7 +15,9 @@ namespace Hachcode2022
             
             // TODO Change solver used here
             var testRunner = new TestRunningService(solver);
-            testRunner.RunAllTests();
+            
+            testRunner.RunTest("a_an_example.in.txt");
+            
             Console.WriteLine("Finished!");
         }
     }
