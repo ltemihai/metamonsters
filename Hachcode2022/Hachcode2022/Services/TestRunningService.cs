@@ -16,10 +16,12 @@ namespace Hachcode2022.Services
 
         public void RunAllTests()
         {
-            RunTest("test1.txt");
-            RunTest("test1.txt");
-            RunTest("test1.txt");
-            RunTest("test1.txt");
+            RunTest("a_an_example.in.txt");
+            RunTest("b_better_start_small.in.txt");
+            RunTest("c_collaboration.in.txt");
+            RunTest("d_dense_schedule.in.txt");
+            RunTest("e_exceptional_skills.in.txt");
+            RunTest("f_find_great_mentors.in.txt");
         }
 
         public void RunTest(string fileName)
