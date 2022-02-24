@@ -1,0 +1,13 @@
+C:\Data\Development\Competitions\HashCode2022\metamonsters\Hachcode2022\Hachcode2022\bin\Debug\netcoreapp3.1\Hachcode2022.exe
+C:\Data\Development\Competitions\HashCode2022\metamonsters\Hachcode2022\Hachcode2022\bin\Debug\netcoreapp3.1\Hachcode2022.deps.json
+C:\Data\Development\Competitions\HashCode2022\metamonsters\Hachcode2022\Hachcode2022\bin\Debug\netcoreapp3.1\Hachcode2022.runtimeconfig.json
+C:\Data\Development\Competitions\HashCode2022\metamonsters\Hachcode2022\Hachcode2022\bin\Debug\netcoreapp3.1\Hachcode2022.runtimeconfig.dev.json
+C:\Data\Development\Competitions\HashCode2022\metamonsters\Hachcode2022\Hachcode2022\bin\Debug\netcoreapp3.1\Hachcode2022.dll
+C:\Data\Development\Competitions\HashCode2022\metamonsters\Hachcode2022\Hachcode2022\bin\Debug\netcoreapp3.1\Hachcode2022.pdb
+C:\Data\Development\Competitions\HashCode2022\metamonsters\Hachcode2022\Hachcode2022\obj\Debug\netcoreapp3.1\Hachcode2022.csprojAssemblyReference.cache
+C:\Data\Development\Competitions\HashCode2022\metamonsters\Hachcode2022\Hachcode2022\obj\Debug\netcoreapp3.1\Hachcode2022.AssemblyInfoInputs.cache
+C:\Data\Development\Competitions\HashCode2022\metamonsters\Hachcode2022\Hachcode2022\obj\Debug\netcoreapp3.1\Hachcode2022.AssemblyInfo.cs
+C:\Data\Development\Competitions\HashCode2022\metamonsters\Hachcode2022\Hachcode2022\obj\Debug\netcoreapp3.1\Hachcode2022.csproj.CoreCompileInputs.cache
+C:\Data\Development\Competitions\HashCode2022\metamonsters\Hachcode2022\Hachcode2022\obj\Debug\netcoreapp3.1\Hachcode2022.dll
+C:\Data\Development\Competitions\HashCode2022\metamonsters\Hachcode2022\Hachcode2022\obj\Debug\netcoreapp3.1\Hachcode2022.pdb
+C:\Data\Development\Competitions\HashCode2022\metamonsters\Hachcode2022\Hachcode2022\obj\Debug\netcoreapp3.1\Hachcode2022.genruntimeconfig.cache
