@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using Hachcode2022.Domain;
 
 namespace Hachcode2022.Services
@@ -22,6 +23,11 @@ namespace Hachcode2022.Services
                     _skillToContributors[skill.Name].Add(contributor);
                 }
             }
+        }
+
+        public static void CalculatePriority(List<InputProject> projets)
+        {
+            projets.OrderBy(proj => proj.Reward / proj.RequiredDays * proj.roles.Count).ToList();
         }
 
 
