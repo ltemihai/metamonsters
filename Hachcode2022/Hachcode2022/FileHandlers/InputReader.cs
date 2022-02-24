@@ -34,7 +34,7 @@ namespace Hachcode2022.FileHandlers
                         Name = tokens[0],
                         Level = Int32.Parse(tokens[1])
                     };
-                    contributor.Skills.Add(skill);
+                    contributor.Skills.Add(skill.Name, skill);
                 }
 
                 inputCase.Contributors.Add(contributor);
